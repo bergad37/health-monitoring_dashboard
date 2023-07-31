@@ -1,0 +1,61 @@
+.data_panel {
+  display: flex;
+  width: 80vw;
+  height: 90vh;
+  position: relative;
+  border: 1px solid rgb(182, 182, 182);
+  margin-top: 65px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 4px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13px;
+  color: darkblue;
+}
+
+.temperature {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 30%;
+  margin: 0 20px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 1s;
+  /* border:1px solid rgb(153, 147, 147); */
+  background-color: rgba(226, 226, 226, 0.637);
+}
+ .temperature:hover{
+    transform: scale(2.1);
+    z-index: 1;
+    background-color: rgba(226, 226, 226, 0.2);
+ }
+
+.icon {
+  width: 30%;
+  height: 30%;
+  padding-bottom: 20px;
+}
+
+.heart {
+  color: #ec4675;
+}
+
+.circle-progress {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .progress-circle {
+    transform: rotate(-90deg);
+  }
+  
+  .progress-bar {
+    stroke: #ddd;
+  }
+  
+  .progress-value {
+    stroke: rgb(76, 175, 124);
+    transition: stroke-dasharray 0.4s ease;
+  }

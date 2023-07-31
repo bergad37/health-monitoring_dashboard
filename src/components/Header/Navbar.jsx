@@ -22,6 +22,9 @@ export const Navbar = () => {
         <div className="temp">
           <p>Oxygen saturation</p> <p className="cb">SpO2</p>
         </div>
+        <div className="temp">
+        <p>Flexibility</p> <p className="cb">Curvity</p>
+      </div>
       </div>
     </div>
   );

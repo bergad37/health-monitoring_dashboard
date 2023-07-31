@@ -8,6 +8,17 @@
 .title{
     background-color: rgb(182, 182, 182); 
     color: white;
-    padding: 3px 400px 3px 400px;
-    font-family: 'Josefin Sans', sans-serif;
+    padding: 3px 480px 3px 400px;
 }
+
+.navbar{
+    background-color: #f2f2f2;
+    box-shadow: 0 16px 90px rgb(115, 183, 142);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
