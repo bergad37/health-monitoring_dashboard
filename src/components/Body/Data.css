@@ -1,0 +1,13 @@
+.center{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+  align-items: center;
+
+}
+.title{
+    background-color: rgb(182, 182, 182); 
+    color: white;
+    padding: 3px 400px 3px 400px;
+    font-family: 'Josefin Sans', sans-serif;
+}
