@@ -21,4 +21,11 @@
     z-index: 10;
 }
 
+@media (width<414px){
+.title{
+    padding:0;
+}
+}
+
+
 
